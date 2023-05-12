@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(51, 5, 51), rgb(197, 6, 197),rgb(51, 5, 51));
+}
+
+.container{
+    width:auto;
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.container_screen, .container_keyboard{
+    width:750px;
+    height:270px;
+    background-color: rgb(238, 182, 192);
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen{
+    width:90%;
+    height:200px;
+    background-color: #f5f5f7;
+    border-radius: 3px;
+}
+
+.keyboard{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.row_btn{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:5px;
+    gap:5px;
+
+}
+
+.btn{
+    width:50px;
+    height:50px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn_ctrl, .btn_capsLock, .btn_enter{
+    width:93px;
+}
+
+.btn_space{
+    width:328px;
+}
+
+.btn_backspace{
+    width:81px;
+}
+
+.btn_shift, .btn_number{
+    width: 97px;
+}
+
+
